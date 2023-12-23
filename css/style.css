@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;700&family=Poppins:wght@500;600;700;800&family=Raleway:wght@400;500;600;700;800&family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+}
+
+#navbar {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.socials {
+    border: 1px solid grey;
+    border-radius: 40px;
+    /* padding: 1rem; */
+}
+
+.cards {
+    border: 1px solid white !important;
+    border-radius: 40px !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    /* background-color: gray !important; */
+    /* color: white !important; */
+}
+
+.font-size {
+    font-size: 55px !important;
+}
+
+#about-me {
+    margin-top: 10rem !important;
+}
+
+#main-section {
+    padding-top: 7rem !important;
+}
+
+/* media queries */
+
+@media screen and (max-width: 800px) {
+    #main-section {
+        padding-top: 0 !important;
+    }
+
+    .image-about {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .experience-degree {
+        width: 100% !important;
+        padding-top: 2rem !important;
+    }
+
+    .font-size {
+        font-size: 35px !important;
+    }
+
+    #about-me {
+        margin-top: 0rem !important;
+    }
+
+    #main-section {
+        padding-top: 4rem !important;
+    }
+}
