@@ -69,6 +69,7 @@ h1 {
 
 p {
     font-weight: 200 !important;
+    color: rgb(85, 85, 85) !important;
 }
 
 .email-icon {
@@ -100,7 +101,7 @@ li #contact-btn {
     background-color: black;
     color: white;
     border-radius: .5rem;
-    padding: 0.5rem 1rem
+    padding: 0rem rem
 }
 
 li #contact-btn {
@@ -119,6 +120,39 @@ li #contact-btn:hover {
 
 #contact-me {
     margin-bottom: 10rem !important;
+}
+
+/* Publications section */
+#publications h2 {
+    font-size: 20px;
+}
+.first img {
+    height: 15rem !important;
+}
+
+.second img {
+    height: 14rem !important;
+}
+
+.third img {
+    height: 10rem !important;
+}
+
+.fourth img {
+    height: 13rem;
+}
+
+/* .fifth img {
+    height: ;
+} */
+
+.last img {
+    height: 10rem !important;
+}
+
+.border-section {
+    border: 1px solid black;
+    padding: 10px 10px;
 }
 
 /* media queries */
@@ -180,7 +214,22 @@ li #contact-btn:hover {
         padding: 0 !important;
     }
 
+    #publications .row img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #publications .row h2, p {
+        justify-items: center !important;
+        align-items: center !important;
+    }
+
     #footer-section ul li {
         gap: 0rem !important;
+    }
+
+    .border-section {
+        border: none !important;
+        padding: 0 !important;
     }
 }
