@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth !important;
 }
 
@@ -31,12 +31,13 @@
     /* color: white !important; */
 }
 
-.font-size {
-    font-size: 55px !important;
-}
-
 #about-me {
     margin-top: 10rem !important;
+    margin-bottom: 10rem !important;
+}
+
+#contact-me {
+    padding-top: 7rem !important;
 }
 
 #main-section {
@@ -48,12 +49,76 @@
 }
 
 .carrd i {
-    transition: transform .5s ease-in-out;
+    transition: all 300s ease;
     margin: 0;
 }
 
 .carrd.selected {
     transform: scale(1.1);
+}
+
+.about-paragraph {
+    line-height: 2;
+    font-weight: 500 !important;
+}
+
+h1 {
+    font-size: 3rem !important;
+    font-weight: 300 !important;
+}
+
+p {
+    font-weight: 200 !important;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+.linkedin-icon {
+    height: 2rem;
+}
+
+.email-linkedIn {
+    border: 1px solid grey;
+    border-radius: 5rem;
+    padding: 0.2rem 0.9rem;
+    padding-top: 1rem;
+}
+
+li a:hover {
+    color: grey !important;
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+    text-decoration-color: rgb(181, 181, 181);
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+
+li #contact-btn {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: .5rem;
+    padding: 0.5rem 1rem
+}
+
+li #contact-btn {
+    /* transition-property: background-color;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out; */
+    transition: all 300ms ease-in-out;
+}
+
+li #contact-btn:hover {
+    text-decoration: none;
+    background-color: inherit !important;
+    color: black !important;
+    border-color: black;
+}
+
+#contact-me {
+    margin-bottom: 10rem !important;
 }
 
 /* media queries */
@@ -75,14 +140,47 @@
     }
 
     .font-size {
-        font-size: 35px !important;
+        font-size: 30px !important;
+        font-weight: 500 !important;
     }
 
     #about-me {
         margin-top: 0rem !important;
+        padding-top: 0rem !important;
+        margin-bottom: 5rem !important;
+    }
+
+    #contact-me {
+        margin-top: 0rem !important;
+        padding-top: 0rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    #contact-me .email-linkedIn p {
+        font-size: 0.9rem;
     }
 
     #main-section {
         padding-top: 4rem !important;
+    }
+
+    .about-paragraph {
+        /* justify-self: center; */
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        line-height: 1.5;
+    }
+
+    li #contact-btn {
+        border: none !important;
+        background-color: inherit !important;
+        color: grey !important;
+        border-radius: none !important;
+        padding: 0 !important;
+    }
+
+    #footer-section ul li {
+        gap: 0rem !important;
     }
 }
