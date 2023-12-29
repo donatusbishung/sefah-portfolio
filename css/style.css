@@ -64,7 +64,7 @@
 
 h1 {
     font-size: 3rem !important;
-    font-weight: 300 !important;
+    font-weight: bold !important;
 }
 
 p {
@@ -232,4 +232,18 @@ li #contact-btn:hover {
         border: none !important;
         padding: 0 !important;
     }
+
+    .arrow-down {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .email-linkedIn li a{
+        font-size: 0.8rem !important;
+    }
+}
+
+#main-section, #about-me, #publications, #contact-me, #footer-section {
+    overflow: hidden;
 }
