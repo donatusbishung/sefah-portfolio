@@ -155,6 +155,20 @@ li #contact-btn:hover {
     padding: 10px 10px;
 }
 
+.all_publications {
+    text-decoration: none;
+    color: black;
+}
+
+.all_publications:hover {
+    color: grey !important;
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+    text-decoration-color: rgb(181, 181, 181);
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+
 /* media queries */
 
 @media screen and (max-width: 800px) {
