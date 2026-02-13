@@ -13,6 +13,13 @@ cards.forEach((card) => {
 // Publications data and rendering
 const publications = [
   {
+    title: "SALT, SOIL, & SUPPER",
+    image: "./Assets/IMG/salt.webp",
+    description:
+      "The Green Transition and Environmental Injustice in the South",
+    url: "https://scalawagmagazine.org/2026/02/the-green-transition-and-environmental-injustice-in-the-south/",
+  },
+  {
     title: "The spirit of the Zaria Rebels and the new African museum",
     image: "./Assets/IMG/zaria.jpg",
     description:
@@ -125,6 +132,14 @@ const publications = [
     description: "",
     url: "https://bluedotliving.com/from-overfishing-to-sustainable-aquaculture-in-lagos/",
   },
+  {
+    title: "SALT, SOIL, & SUPPER",
+    image:
+      "./Assets/IMG/what-takes-to-be-woman-midnight-and-indigo-black-women-writers-1.webp",
+    description:
+      "The Green Transition and Environmental Injustice in the South",
+    url: "https://scalawagmagazine.org/2026/02/the-green-transition-and-environmental-injustice-in-the-south/",
+  },
 ];
 
 function createPublicationCard(item) {
@@ -132,8 +147,8 @@ function createPublicationCard(item) {
     <div class="col-12 col-lg-6">
       <div class="last publication-card d-flex flex-column flex-lg-row align-items-center gap-4">
         <img src="${item.image}" class="img-fluid publication-image" alt="${
-    item.title
-  }" width="160" height="160" />
+          item.title
+        }" width="160" height="160" />
         <div class="paragraphs d-flex flex-column text-start justify-content-center align-self-start">
           <h2>${item.title}</h2>
           ${item.description ? `<p>${item.description}</p>` : ""}
