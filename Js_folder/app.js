@@ -13,6 +13,14 @@ cards.forEach((card) => {
 // Publications data and rendering
 const publications = [
   {
+    title:
+      "How Black Churches Built the Civic Infrastructure That Kept the Nation Alive",
+    image: "./Assets/IMG/Black_Church.jpg",
+    description:
+      "As the United States celebrates its 250th anniversary, Americans will...",
+    url: "https://nonprofitquarterly.org/how-black-churches-built-the-civic-infrastructure-that-kept-the-nation-alive/",
+  },
+  {
     title: "SALT, SOIL, & SUPPER",
     image: "./Assets/IMG/salt.webp",
     description:
