@@ -14,6 +14,19 @@ cards.forEach((card) => {
 const publications = [
   {
     title:
+      "How Social Media Conversations About Relationships Can Caution Us Against Relationships Entirely",
+    image: "./Assets/IMG/social.jpeg",
+    description: "",
+    url: "https://buttondown.com/TheJustSpaceAlliance/archive/beyond-the-launchpad-why-space-ethics-must-begin/",
+  },
+  {
+    title: "Beyond the Launchpad:",
+    image: "./Assets/IMG/space_ethics.jpg",
+    description: "Why Space Ethics Must Begin on Earth",
+    url: "https://buttondown.com/TheJustSpaceAlliance/archive/beyond-the-launchpad-why-space-ethics-must-begin/",
+  },
+  {
+    title:
       "How Black Churches Built the Civic Infrastructure That Kept the Nation Alive",
     image: "./Assets/IMG/Black_Church.jpg",
     description:
@@ -158,7 +171,7 @@ function createPublicationCard(item) {
           item.title
         }" width="160" height="160" />
         <div class="paragraphs d-flex flex-column text-start justify-content-center align-self-start">
-          <h2>${item.title}</h2>
+          <h2 class="fs-6">${item.title}</h2>
           ${item.description ? `<p>${item.description}</p>` : ""}
           <p><a href="${item.url}" target="_blank">Read More</a></p>
         </div>
